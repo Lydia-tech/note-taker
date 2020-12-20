@@ -9,7 +9,7 @@ router.get('/notes', (_req, res) => {
     data.getNotes().then((notes) => {
         return res.json(notes)
         // typeof NodeError
-    }).catch((err) => {res.send(err.code || err.message || err.status).json(err)
+    }).catch((err)) => {res.send(err.code || err.message || err.status).json(err)
 })
 // err.code || err.message || err.status).json(err.message || err.code || err.status).json(err.message !==null ? err.message.toString() : err.status !==null  ? err.status :|| err.code || err.status)
 router.post('/notes', (req, res) => {
