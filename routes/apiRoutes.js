@@ -15,6 +15,17 @@ router.get('/notes', (_req, res) => {
     // }).catch((err) => {res.send(err.code || err.message || err.status).json(err)
 })
 // err.code || err.message || err.status).json(err.message || err.code || err.status).json(err.message !==null ? err.message.toString() : err.status !==null  ? err.status :|| err.code || err.status)
+
+router.get('')
+// A function for saving a note to the db
+let saveNote = function(note) {
+    return $.ajax({
+      url: "/api/notes",
+      data: note,
+      method: "POST"
+    });
+  };
+
 router.post('/notes', (req, res) => {
 console.log(req.body.title)   
 console.log(req.body.text) 
