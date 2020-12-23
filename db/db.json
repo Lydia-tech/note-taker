@@ -1,17 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text",
-        "id": "4aaac2c04eb78424357106eef77793bf89d6a8d81842dfb447291f8dd4fb77db3b8ea4692b9a0f259e04e5955a57df50ca453b25f6fac2d0a24c2d9095d231d3"
-    },
-    {
-        "title":"Test Two",
-        "text":"Two text",
-        "id": "226f9426d1807a001c95ef617ad2190204a14c84dc47f1a3054f828ac4ca532a08c41d162462baa0cfe30e75bc2c9ac32e5e6fe0e65b57da4a53e7783c40e33f"
-    },
-    {
-        "title":"Test Three",
-        "text":"Three text",
-        "id": "b017a6a1949d693a00886eb445ca82a26cf7265f87fa8d84377ec2a7bbc609d231bada932140cce8cfa518b569591f32616bda3b0d10fa3feab38fbca4ac3825"
-    }
-]
+[{"title":"Test Title","text":"Test text","id":"4aaac2c04eb78424357106eef77793bf89d6a8d81842dfb447291f8dd4fb77db3b8ea4692b9a0f259e04e5955a57df50ca453b25f6fac2d0a24c2d9095d231d3"},{"title":"Test Two","text":"Two text","id":"226f9426d1807a001c95ef617ad2190204a14c84dc47f1a3054f828ac4ca532a08c41d162462baa0cfe30e75bc2c9ac32e5e6fe0e65b57da4a53e7783c40e33f"},{"title":"Test Three","text":"Three text","id":"b017a6a1949d693a00886eb445ca82a26cf7265f87fa8d84377ec2a7bbc609d231bada932140cce8cfa518b569591f32616bda3b0d10fa3feab38fbca4ac3825"}]

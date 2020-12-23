@@ -17,13 +17,8 @@ router.get('/notes', (_req, res) => {
 // err.code || err.message || err.status).json(err.message || err.code || err.status).json(err.message !==null ? err.message.toString() : err.status !==null  ? err.status :|| err.code || err.status)
 
 // saving a note to the db
-router.get('/notes:id', (req, res) => {
-    const result = saveNote(req.params.id, notes);
-  if (result) {
-    res.json(result);
-  } else {
-    res.send(404);
-  }
+fs.writeFile('./db/db.json', JSON.stringify(databaseArry), () => {
+    console.log(results);
 });
 
 router.post('/notes', (req, res) => {
