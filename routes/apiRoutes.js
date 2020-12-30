@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require('uuid');
 const databaseArry = [...data];
 // console.log(databaseArry);
 router.get('/notes', (_req, res) => {
-	res.json(data);
+	res.json(databaseArry)
 	// data.getNotes().then((notes) => {
 	//     return res.json(notes)
 	//     // typeof NodeError
