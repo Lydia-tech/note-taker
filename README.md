@@ -3,7 +3,7 @@
 This application uses an express.js to develop application that runs on a server to take notes.
 ```
 
- ### GitHub link to application:
+ ### Deployed link to application:
 ```
 
 ```
