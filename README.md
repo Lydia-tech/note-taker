@@ -5,7 +5,7 @@ This application uses an express.js to develop application that runs on a server
 
  ### Deployed link to application:
 ```
-https://takes-notes.herokuapp.com/
+https://takes-notes.herokuapp.com
 ```
 
 ### Description:
